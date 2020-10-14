@@ -1,0 +1,26 @@
+{
+  "name": "react-native-shadow-generator",
+  "version": "1.0.0",
+  "description": "generate shadow properties for react native android/ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshd50/react-native-shadow-generator.git"
+  },
+  "keywords": [
+    "react-native",
+    "shadow",
+    "elevation",
+    "shadow",
+    "generator"
+  ],
+  "author": "Rajesh Dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeshd50/react-native-shadow-generator/issues"
+  },
+  "homepage": "https://github.com/rajeshd50/react-native-shadow-generator#readme"
+}
