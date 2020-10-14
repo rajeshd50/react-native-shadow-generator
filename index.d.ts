@@ -1,3 +1,14 @@
 declare module 'react-native-shadow-generator' {
-  export function generateShadow(elevation: string | number): number;
+  interface ShadowOffset {
+    width: number;
+    height: number;
+  }
+  interface Shadow {
+    shadowColor: string,
+    shadowOffset: ShadowOffset,
+    shadowOpacity: number,
+    shadowRadius: number,
+    elevation: number,
+  }
+  export function generateShadow(elevation: string | number): Shadow;
 }

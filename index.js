@@ -111,6 +111,7 @@ const generateShadow = (elevation) => {
   const y = s.y === 1 ? 1 : Math.floor(s.y * 0.5);
 
   return {
+    shadowColor: '#000',
     shadowOffset: {
       width: 0,
       height: y,
@@ -121,6 +122,4 @@ const generateShadow = (elevation) => {
   }
 }
 
-export {
-  generateShadow
-}
+exports.generateShadow = generateShadow
